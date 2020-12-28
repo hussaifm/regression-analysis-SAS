@@ -1,0 +1,28 @@
+﻿PROC IMPORT OUT= Heart
+            DATAFILE= "C:\Users\hussaifm\Downloads\Heart.xlsx" 
+            DBMS=XLSX REPLACE;
+     Sheet="Data"; 
+RUN;
+
+proc reg data=Heart plots=none;
+model chol=trestbps;
+run;
+quit;
+
+proc corr data=Heart;
+var trestbps chol;
+run;
+
+proc mixed data=Heart;
+class target sex;
+model chol=target sex target*sex/SOLUTION;
+lsmeans target*sex /diff adjust=bon;
+run;
+
+proc mixed data=Heart;
+class target sex;
+model chol=target sex/SOLUTION;
+lsmeans target sex /diff adjust=bon;
+run;
+
+
