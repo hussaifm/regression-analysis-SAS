@@ -84,4 +84,4 @@ The sex effect is statistically significant after adjusting target effect.
 
 If we compare the means from post hoc table, it shows females have higher cholesterol levels than males because the p-value is significant. Also statistically, those who don’t have heart disease have higher cholesterol levels than those who have heart disease!
 
-
+to be continued.....
