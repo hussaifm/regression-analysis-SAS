@@ -21,7 +21,7 @@ Analyzing the data:
 # Results
 1) The slope of trestbps is 0.36402 and the corresponding p-value is 0.0321.
 
-2)The correlation p-value is also 0.0321 which is similar to the p-value to the slope and the correlation coefficient is 0.12317.
+2) The correlation p-value is also 0.0321 which is similar to the p-value to the slope and the correlation coefficient is 0.12317.
 
 # Conclusion 
 1)	The pvalue is < 0.05, we reject the HT and there is relationship between the cholesterol levels and resting blood pressure. Also, because the slope is positive then the relationship is positive between cholesterol levels and resting blood pressure.
@@ -31,13 +31,13 @@ Analyzing the data:
 # Two-way ANOVA with interaction
 *Research Questions:*
 
-1)Are the interaction between target variable and sex variable significant?
+1) Are the interaction between target variable and sex variable significant?
 HT:(β0)jk = 0
 
 2) In males(M) = 1, are the population mean of cholesterol levels the same between those who have heart disease =1, and those who haven’t heart disease = 0.
 HT: µMD1=µMD2 , where µ1D1  and µ1D2  denote population means of cholesterol levels in those with heart disease =1 and without heart disease = 0 in  (M)males=1
 
-3)In patients with heart disease (1), are the population means of cholesterol levels the same among males and females?
+3) In patients with heart disease (1), are the population means of cholesterol levels the same among males and females?
 HT: µMD1=µFD1, where µMD1 and µFD1 denote the population means of cholesterol levels in those with heart disease (1) among males and females.
 
 Dependent variable: chol (serum cholesterol in mg/dl).
