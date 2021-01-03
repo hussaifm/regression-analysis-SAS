@@ -54,11 +54,11 @@ Statistical model: Yijk=µ+βj+θ+(βθ)jk+εijk
 3)The p value for the patients who have heart disease for both genders is 0.0077.
 
 # Conclusion
-1)The interaction between sex and target is not significant. 
+1) The interaction between sex and target is not significant. 
 
 2) Statistically, the cholesterol level is the same for those who have heart disease and those who don’t have heart disease among males only.
 
-3)The cholesterol levels in those who have heart disease and those who don’t have heart disease are NOT the same in both males and females because the p-value is significant. 
+3) The cholesterol levels in those who have heart disease and those who don’t have heart disease are NOT the same in both males and females because the p-value is significant. 
 
 # Two-way ANOVA no interaction 
 *Research Question: Two research questions:*
