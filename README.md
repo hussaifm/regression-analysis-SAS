@@ -8,7 +8,7 @@
 # Simple linear regression model
 *Research question: Are cholesterol levels and resting blood pressure related?*
 
-Statistical Model: Y_i=\alpha+\beta X_i+\varepsilon_i 
+Statistical Model: Yi = α + βXi + ɛi
 
 Dependent Variable: chol (serum cholesterol in mg/dl). 
 
@@ -32,7 +32,7 @@ Analyzing the data:
 *Research Questions:*
 
 1)Are the interaction between target variable and sex variable significant?
-HT:\ \left(\beta\theta\right)_{jk} = 0
+HT:(β0)jk = 0
 
 2) In males(M) = 1, are the population mean of cholesterol levels the same between those who have heart disease =1, and those who haven’t heart disease = 0.
 HT: µMD1=µMD2 , where µ1D1  and µ1D2  denote population means of cholesterol levels in those with heart disease =1 and without heart disease = 0 in  (M)males=1
@@ -44,7 +44,7 @@ Dependent variable: chol (serum cholesterol in mg/dl).
 
 Fixed effect variable: Sex effect (Male = 1, Female = 0), heart disease effect ‘target’ (No heart disease = 0, w.heart disease = 1) 
 
-Statistical model: Y_{ijk}=µ+βj+θ+βθjk+εijk
+Statistical model: Yijk=µ+βj+θ+(βθ)jk+εijk
 
 # Results
 1)From the first table below, the p-value of the interaction between the target and sex is 0.8208. 
@@ -73,7 +73,7 @@ Dependent variable: chol (serum cholesterol in mg/dl).
 
 Fixed effect variable: Sex effect (Male = 1, Female = 0), heart disease effect ‘target’ (No heart disease = 0, w.heart disease = 1) 
 
-Statistical model: Y_{ijk}=µ+βj+θk+εijk, where \beta_j is disease ‘target’ effect j = 1, 0  \theta_k is sex effect k = 0, 1
+Statistical model: Yijk=µ+βj+θk+εijk, βj where is disease ‘target’ effect j = 1,0    0k is sex effect k = 0, 1
 
 # Results  
  The corresponding p-value of the F test for target is 0.0092 and The corresponding p-value of the F test for sex is <.0001
